@@ -10,7 +10,15 @@ programa
 		leia(nome)
 		escreva("digite sua idade: ")
 		leia(idade)
-
+		inteiro cpf ,salario
+	
+		escreva("digite seu cpf:")
+		leia(cpf)
+		escreva("digite seu salario:")
+		leia(salario)
+		limpa()
+		escreva("seu cpf é ",cpf)
+		escreva("\nseu salario é de ",salario)	
 		escreva("Seu nome é ", nome, ". \nSua idada é ", idade, ". ")
 		
 		}
